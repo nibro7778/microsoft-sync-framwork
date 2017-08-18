@@ -5,6 +5,8 @@ Prerequisite for this repository are as follow
 
 You need to create a sample SQL Server database that you will use later in a synchronization. Use following script to create database and table that are required for this project 
 
+For more detail you can visit : https://msdn.microsoft.com/en-us/library/ff928700(v=SQL.110).aspx
+
 -Server Database: SyncDB
 -Client Database: SyncExpressDB
 
