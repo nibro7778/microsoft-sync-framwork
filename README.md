@@ -10,7 +10,7 @@ For more detail you can visit : https://msdn.microsoft.com/en-us/library/ff92870
 -Server Database: SyncDB
 -Client Database: SyncExpressDB
 
-USE [master]
+`USE [master]
 GO
 
 IF EXISTS(SELECT name FROM sys.databases WHERE name = 'SyncDB')
@@ -55,4 +55,4 @@ INSERT INTO Orders VALUES (1, 1, 2, 'NC')
 INSERT INTO Orders VALUES (2, 2, 1, 'NC')
 INSERT INTO Orders VALUES (3, 1, 5, 'WA')
 INSERT INTO Orders VALUES (3, 3, 10, 'WA')
-INSERT INTO Orders VALUES (4, 2, 4, 'WA')
+INSERT INTO Orders VALUES (4, 2, 4, 'WA')`
